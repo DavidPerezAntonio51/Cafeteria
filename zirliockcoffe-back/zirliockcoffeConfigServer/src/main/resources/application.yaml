@@ -1,10 +1,12 @@
 spring:
+  application:
+    name: zirliock-config-server
   cloud:
     config:
       server:
         git:
           default-label: main
-          search-paths: configuraciones
-          uri: https://github.com/DavidPerezAntonio51/Cafeteria/tree/main/zirliockcoffe-back
+          search-paths: /zirliockcoffe-back/configuraciones
+          uri: https://github.com/DavidPerezAntonio51/Cafeteria
 server:
   port: 8081
