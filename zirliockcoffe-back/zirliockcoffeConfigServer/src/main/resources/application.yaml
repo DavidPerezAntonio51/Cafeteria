@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          search-paths: configuraciones
+          uri: https://github.com/DavidPerezAntonio51/Cafeteria/tree/main/zirliockcoffe-back
+server:
+  port: 8081
