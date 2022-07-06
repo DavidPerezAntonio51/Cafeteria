@@ -1,5 +1,11 @@
 spring:
+  mvc:
+    converters:
+      preferred-json-mapper: gson
   application:
     name: zirliock-personal
   config:
     import: optional:configserver:http://localhost:8081
+  data:
+    mongodb:
+      uri: mongodb+srv://Dezkser:Jeff1234@cafeteriapersonal.e5clx.mongodb.net/Empleados?retryWrites=true&w=majority
