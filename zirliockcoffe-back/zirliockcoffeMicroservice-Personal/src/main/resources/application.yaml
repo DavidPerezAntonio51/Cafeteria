@@ -8,7 +8,7 @@ spring:
       preferred-json-mapper: gson
   data:
     mongodb:
-      uri: mongodb+srv://Dezkser:Jeff1234@cafeteriapersonal.e5clx.mongodb.net/Empleados?retryWrites=true&w=majority
+      uri: mongodb+srv://Dezkser:Jeff1234@cafeteriapersonal.e5clx.mongodb.net/CafeteriaPersonal?retryWrites=true&w=majority
 server:
   port: ${PORT:${SERVER_PORT:0}}
 eureka:

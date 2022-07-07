@@ -8,7 +8,7 @@ public interface IServicioEmpleados {
 
     public Empleado guardarEmpleado(Empleado nuevoEmpleado);
 
-    public Empleado eliminarEmpleado(String empleadoId);
+    public void eliminarEmpleado(String empleadoId);
 
     public Empleado editarDatosEmpleado(String empleadoId, Empleado empleadoEditado);
 
@@ -17,4 +17,6 @@ public interface IServicioEmpleados {
     public List<Empleado> ListarEmpleadosPorClinica(String clinicaId);
 
     public Boolean correoYaExistente(String correo);
+
+    public Empleado empleadoEspecifico(String id);
 }
